@@ -1,4 +1,4 @@
-import { ChatOllama } from "langchain/chat_models/ollama"; // Update the import path for ChatOllama
+import { ChatOllama } from "langchain/chat_models/ollama";
 import { HumanMessage, SystemMessage } from "langchain/schema";
 
 // This component is responsible for processing new messages from the user and getting a reply from Ollama

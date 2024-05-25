@@ -8,6 +8,7 @@ import {
 } from "react-native";
 
 import LangchainProcessor from "./utils/LangchainProcessor";
+import getEmbedding from "./utils/Embedding";
 
 const App = () => {
   const [text, onChangeText] = React.useState("Useless Text");
